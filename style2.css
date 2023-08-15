@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: #24252A; */
+    color: black;
+}
+body{
+    background-color: #edf2f8;
+    color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+
+}
+ section h2 {
+    color: antiquewhite;
+    text-align: center; 
+    background-color: gray;
+}
+li , a, button{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #083847;
+    text-decoration: none;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+
+}
+h6{
+    font-size: medium;
+    cursor: pointer;
+}
+.nav_links{
+    list-style: none;
+    position: sticky;
+}
+.nav_links li{
+    display: inline;
+    padding: 0 20px;
+
+}
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover {
+    color:blue;
+}
+button{
+    padding: 9px 23px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor:pointer ;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+  background-color:   rgba(53, 202, 240, 0.8);
+}
+
+.box1 img{
+    border-radius: 120px;
+}
+.box2 img{
+   
+    border-radius: 120px;
+}
+.box3 img{
+   
+    border-radius: 120px;
+}
+.box4 img{
+  
+    border-radius: 120px;
+
+}
+.box5 img{
+    border-radius: 120px;
+  
+}
+.box6 img{
+    border-radius: 120px;
+  
+}
+.container {
+    max-width: 960px;
+    margin: 100px auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat (3, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+    /* // same hai// */
+    gap: 20px;
+}
+.container a{
+    color: black;
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  font-size: medium;
+}
+.container a:hover{
+    color: blue;
+
+}
+
+
+#foot{
+    border: 2px solid rgb(107, 107, 247);
+    text-align: center;
+    color: aliceblue;
+}
